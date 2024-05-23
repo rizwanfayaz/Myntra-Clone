@@ -84,9 +84,42 @@ header {
     justify-content: space-evenly;
 }
 
+.action-name {
+    font-size: 11px;
+    font-weight: 750;
+}
+
 .action-container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
 /*header ends here*/
+
+.banner-container {
+    margin: 40px 0;
+}
+
+.banner-img {
+    width: 100%;
+}
+
+.category-heading {
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category-items {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sale-item {
+    width: 210px;
+}
