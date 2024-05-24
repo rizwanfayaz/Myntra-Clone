@@ -92,6 +92,10 @@ header {
     font-weight: 750;
 }
 
+.action-icon {
+    color: black;
+}
+
 .action-container {
     display: flex;
     align-items: center;
@@ -163,6 +167,73 @@ header {
     text-decoration: none;
     padding-bottom: 5px;
 }
-.app-logos{
-    height: 50px;
+
+.app-logos {
+    height: 45px;
+}
+
+.app-links #hd1 {
+    margin-bottom: 20px;
+}
+
+.app-links #hd2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    color: #696b79;
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.last-links {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #3e4152;
+    text-align: left;
+    line-height: 25px;
+    width: 100%;
+}
+
+.last-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #3e4152;
+    margin: 3px;
+}
+
+.cont {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.cont p {
+    color: #696e79;
+}
+
+.cont a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(42, 42, 150, 0.911);
+}
+
+.cpyrgt {
+    color: #696e79;
+    width: 320px;
+    position: relative;
+    left: 520px;
+    bottom: 12px;
+}
+
+.comp-name {
+    color: #696e79;
+    width: 140px;
+    position: relative;
+    left: 1160px;
+    bottom: 40px;
 }
