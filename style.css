@@ -138,7 +138,31 @@ header {
 .sale-item2 {
     width: 230px;
 }
-.footer-container{
+
+.footer-container {
     padding: 30px 0px 40px 0px;
     background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col h5 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer-col a {
+    color: #696b79;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.app-logos{
+    height: 50px;
 }
